@@ -1,0 +1,74 @@
+###
+POST http://localhost:8080/add_batch
+Content-Type: application/json
+
+{
+  "symbol": "NVDA",
+  "values": [
+    500,
+    501,
+    450,
+    551,
+    552,
+    534,
+    300,
+    333,
+    666,
+    546,
+    832,
+    485,
+    923,
+    100,
+    1000,
+    863,
+    345,
+    649,
+    748,
+    785,
+    895,
+    995
+  ]
+}
+
+###
+POST http://localhost:8080/add_batch
+Content-Type: application/json
+
+{
+  "symbol": "AAPL",
+  "values": [
+    600,
+    501,
+    450,
+    551,
+    552,
+    534,
+    340,
+    333,
+    666,
+    546,
+    232,
+    303,
+    923,
+    50,
+    863,
+    333,
+    333,
+    234,
+    785,
+    895,
+    995
+  ]
+}
+
+###
+POST http://localhost:8080/add
+Content-Type: application/json
+
+{
+  "symbol": "ASML",
+  "value": 500
+}
+
+###
+GET http://localhost:8080/stats?symbol=NVDA&k=2
