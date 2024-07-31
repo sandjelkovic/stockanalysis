@@ -17,7 +17,8 @@ in the `httprequests` file to see the application working.
 To run regular tests, you can use
 
 - `./gradlew check`
-  To run performance benchmark tests on the calculations alone, you can use
+
+To run performance benchmark tests on the calculations alone, you can use
 - `./gradlew jmh`
 
 ## Performance benchmarks
